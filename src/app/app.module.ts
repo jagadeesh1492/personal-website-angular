@@ -10,6 +10,7 @@ import { HeaderComponent } from './layout/header/header.component';
 import { FooterComponent } from './layout/footer/footer.component';
 import { AppRoutingModule } from './app-routing.module';
 import { NotMatchComponent } from './not-match/not-match.component';
+import { LinksComponent } from './home/links/links.component';
 
 @NgModule({
   declarations: [
@@ -20,10 +21,11 @@ import { NotMatchComponent } from './not-match/not-match.component';
     WorksComponent,
     HeaderComponent,
     FooterComponent,
-    NotMatchComponent
+    NotMatchComponent,
+    LinksComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({appId:'personal-website'}),
     AppRoutingModule,
   ],
   providers: [],
