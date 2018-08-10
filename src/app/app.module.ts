@@ -10,7 +10,8 @@ import { HeaderComponent } from './layout/header/header.component';
 import { FooterComponent } from './layout/footer/footer.component';
 import { AppRoutingModule } from './app-routing.module';
 import { NotMatchComponent } from './not-match/not-match.component';
-import { LinksComponent } from './home/links/links.component';
+import { IntroductionComponent } from './home/introduction/introduction.component';
+
 
 @NgModule({
   declarations: [
@@ -22,7 +23,7 @@ import { LinksComponent } from './home/links/links.component';
     HeaderComponent,
     FooterComponent,
     NotMatchComponent,
-    LinksComponent
+    IntroductionComponent
   ],
   imports: [
     BrowserModule.withServerTransition({appId:'personal-website'}),

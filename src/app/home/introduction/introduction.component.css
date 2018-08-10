@@ -1,0 +1,36 @@
+section{
+  display: flex;
+  width: 100%;
+  height: 100px;
+}
+section > p{
+  margin: 0;
+  padding: 1em;
+  line-height: 1.5em;
+  font-size: 1.2rem;
+  font-style: italic;
+  text-align: justify;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
+section > p > a{
+  color: #AD6800;
+  cursor: pointer;
+  transition: color .2s ease-in;
+}
+
+section > p a:hover{
+  color: #613400;
+}
+
+@media (max-width: 899px) {
+  section {
+    height: 140px;
+  }
+}
+@media (max-width: 499px) {
+  section {
+    height: 180px;
+  }
+}
