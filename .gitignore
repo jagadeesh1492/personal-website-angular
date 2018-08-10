@@ -2,6 +2,7 @@
 
 # compiled output
 /dist
+/personal-website-angular-dist
 /tmp
 /out-tsc
 
