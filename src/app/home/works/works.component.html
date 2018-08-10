@@ -1,3 +1,8 @@
-<p>
-  works works!
-</p>
+<section>
+  <p class="title">Works</p>
+  <div class="works">
+    <div *ngFor="let work of works; index as i" class="img-wrap">
+      <img src="http://www.buctwbzs.com/statics/images/personal-website/{{work}}.png" alt="work-{{work}}">
+    </div>
+  </div>
+</section>
